@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-  return 'Hello World!'
+  return 'Hello, this is the updated version of this container!'
 
 
 if __name__ == '__main__':
